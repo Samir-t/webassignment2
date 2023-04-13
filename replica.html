@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: #0C3B2E;
+            font-family:Anuphan;
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+        button{
+            background-color: #FFBA00;
+            border-radius: 30px;
+            padding: 10px;
+            border: none;
+            font-size: 18px;
+            margin-left: 40px;
+            margin-top: 50px;
+            text-transform: uppercase;
+            
+        }
+        .parent{
+            height: 100vh;
+            width: 100%;
+        }
+        .parent .left, .right{
+            width: 50%;
+            float: left;
+        }
+        h1{
+            text-transform: capitalize;
+            margin-top: 40px;
+            margin-left: 40px;
+            margin-right: 20px;
+            margin-bottom: 50px;
+            font-size: 50px;
+        }
+        .text{
+            margin-left: 40px;
+            margin-top: 20px;
+            width: 50%;
+        }
+        .text2{
+            margin-top: 30px;
+            margin-left: 40px;
+            width: 50%;
+        }
+        .right{
+            width: 50%;
+        }
+        .left
+        {
+            float: right;
+            width: 50%
+        }
+        .left img{
+            width: 100%;
+            height: 100vh;
+        }
+        @media  (max-width:747px) {
+            .left{
+                width: 100%;
+            }
+            .left img{
+                width: 100%;
+                height: 80vh;
+            }
+        }
+        @media (max-width:713px){
+    button{
+        size: 12px;
+        font-size: 18px;
+    }
+    @media  (max-width:701px) {
+            .left{
+                width: 100%;
+                margin-top: 40px;
+            }
+            .left img{
+                width: 100%;
+                height: 80vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="right">
+            <h1>reach out</h1>
+            <p class="text">conference cecretariat<br>163 Woodlands Place <br>Algies Bay, Rodney 0920</p>
+            <p class="text2">123-456-7890 <br>hello@reallygreatsite.com<br> @reallygreatsit</p>
+            <button>reserve your seat</button>
+        </div>
+        <div class="left">
+            <img src="students.jpg" alt="students group">
+        </div>
+    </div>
+</body>
+</html>
